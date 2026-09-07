@@ -1,6 +1,6 @@
 {
   "name": "@manaty/game-kart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "license": "MIT",
   "description": "Play Kart · Grand Prix together on a shared screen, using phones as controllers. 2–5 players.",
@@ -15,7 +15,7 @@
     "test": "node --test test/*.test.js"
   },
   "dependencies": {
-    "@manaty/retro-museum-sdk": "https://github.com/manaty/retro-museum-sdk/archive/c274706ea02746bd191656bb9ba5816bc5768e5f.tar.gz",
+    "@manaty/retro-museum-sdk": "https://github.com/manaty/retro-museum-sdk/archive/65f499eccbbf2cd2f72f42e5edea8a4c62e2a0d0.tar.gz",
     "three": "0.185.1"
   },
   "devDependencies": {
