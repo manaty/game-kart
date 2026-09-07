@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "kart",
+  "version": "1.0.0",
+  "title": {
+    "en": "Kart · Grand Prix",
+    "fr": "Kart · Grand Prix",
+    "tl": "Kart · Grand Prix"
+  },
+  "description": {
+    "en": "Play Kart · Grand Prix together on a shared screen, using phones as controllers. 2–5 players.",
+    "fr": "Jouez à Kart · Grand Prix ensemble sur un écran partagé, avec les téléphones comme manettes. 2 à 5 joueurs.",
+    "tl": "Maglaro ng Kart · Grand Prix sa isang shared screen gamit ang mga telepono. 2–5 na manlalaro."
+  },
+  "author": "Manaty",
+  "license": "MIT",
+  "languages": [
+    "en",
+    "fr",
+    "tl"
+  ],
+  "players": {
+    "min": 2,
+    "max": 5
+  },
+  "durationMinutes": 15,
+  "runtime": "quickjs-v1",
+  "entry": "dist/game.rmg.json",
+  "permissions": [],
+  "activityKey": "kart",
+  "options": {
+    "laps": {
+      "label": {
+        "en": "Laps",
+        "fr": "Tours",
+        "tl": "Mga ikot"
+      },
+      "values": [
+        3,
+        5
+      ],
+      "default": 3
+    }
+  }
+}

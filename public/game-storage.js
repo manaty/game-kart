@@ -1,0 +1,1 @@
+const values={};export const gameStorage={getItem:key=>values[key]??null,setItem(key,value){values[key]=value;parent.postMessage({retroMuseum:1,type:'preference',key,value},'*');}};addEventListener('message',event=>{if(event.source===parent&&event.data?.retroMuseum===1&&event.data.preferences)Object.assign(values,event.data.preferences);});

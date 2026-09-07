@@ -1,0 +1,26 @@
+{
+  "name": "@manaty/game-kart",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "Play Kart · Grand Prix together on a shared screen, using phones as controllers. 2–5 players.",
+  "exports": {
+    "./engine": "./server/kart.js",
+    "./package": "./dist/game.rmg.json"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "retro-museum-host --package dist/game.rmg.json",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@manaty/retro-museum-sdk": "https://github.com/manaty/retro-museum-sdk/archive/c274706ea02746bd191656bb9ba5816bc5768e5f.tar.gz",
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
