@@ -15,7 +15,7 @@
     "test": "node --test test/*.test.js"
   },
   "dependencies": {
-    "@manaty/retro-museum-sdk": "https://github.com/manaty/retro-museum-sdk/archive/23d04fc7bd49ec6d0d13c255c0a725622a8b9ad1.tar.gz",
+    "@manaty/retro-museum-sdk": "https://github.com/manaty/retro-museum-sdk/archive/96dcefbae9a058bcb865b98bdee797686524b84a.tar.gz",
     "three": "0.185.1"
   },
   "devDependencies": {
